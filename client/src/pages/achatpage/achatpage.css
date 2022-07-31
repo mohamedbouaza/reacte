@@ -1,0 +1,83 @@
+.vente {
+  flex: 4;
+  padding: 20px;
+}
+
+.produitTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.produitTitle {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.produitAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.produitUpdate {
+  flex: 3;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 20px;
+ 
+}
+
+.produitUpdateTitle {
+  font-size: 30px;
+  font-weight: 800;
+  
+}
+
+.produitUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.produitUpdateItem {
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  margin-top: 10px;
+}
+
+.produitUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.produitUpdateInput {
+  border: none;
+  width: 500px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.produitUpdateRight {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+}
+
+.produitUpdateButton {
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+}

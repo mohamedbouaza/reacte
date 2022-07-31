@@ -1,0 +1,59 @@
+.service1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.serviceitem {
+  height: 150px;
+  flex: 1;
+  margin: 20px 20px;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: -2px 8px 10px 9px #000;
+  box-shadow: -2px 8px 10px 9px #000;
+  font-size: x-large !important;
+  background-color: rgb(15, 137, 153);
+  color: white;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger !important;
+  padding-bottom: 15px;
+ 
+}
+.number{
+    font-size: 50px;
+    padding-bottom: 30px;
+    font-size: larger;
+}
+.tuto{ 
+  transform: scale(3);
+}
+
+.info:hover{
+    color: blue;
+}
+.info{
+  display: flex;
+}
+.info1{
+  padding-top:7px ;
+  padding-right: 30px;
+  transform: scale(1.5) ;
+}
+.flesh{
+  margin-top: 6px;
+}
+
+.ro{
+  width: 500px;
+}
+.service2{
+   width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

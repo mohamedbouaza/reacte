@@ -1,0 +1,50 @@
+.achat{
+    flex: 4;
+   
+}
+.achattitle{
+    text-align: center;
+    margin:35px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.iconachat{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 3px;
+    transform: scale(2);
+}
+
+.table{
+    
+   
+}
+#headerName{
+    color: aqua;
+}
+.achatajout {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.achatdelete {
+  color: rgb(216, 92, 92);
+cursor: pointer;  
+}
+.newachatButton{
+    width: 300px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 7px 10px;
+    margin-left: 70%;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
