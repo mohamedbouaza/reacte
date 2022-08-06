@@ -1,5 +1,5 @@
 import "./vente.css";
-import { DataGrid, GridColDef, GridValueGetterParams } from "@mui/x-data-grid";
+import { DataGrid, GridColDef} from "@mui/x-data-grid";
 import MonetizationOnIcon from "@mui/icons-material/MonetizationOn";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { venterows } from "../../DammyData";

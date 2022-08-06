@@ -1,10 +1,8 @@
 import "./produit.css";
-import { DataGrid, GridColDef, GridValueGetterParams } from "@mui/x-data-grid";
+import { DataGrid, GridColDef } from "@mui/x-data-grid";
 import QrCode2Icon from "@mui/icons-material/QrCode2";
 import DeleteIcon from '@mui/icons-material/Delete';
 import { produitrows } from "../../DammyData";
-import Stack from '@mui/material/Stack';
-import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
